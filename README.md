@@ -3,23 +3,23 @@
 ## important general python take aways
 
 1. setup virtual environment to keep deps from being global
-  * env easiest to just put in project directory... can include in git...
-  * `python -m venv venv`
-    * last venv is just name of env you want to setup...
-  * `source venv/bin/activate`
-    * puts you in virtual env
-    * `deactivate` takes you out
+    * env easiest to just put in project directory... can include in git...
+    * `python -m venv venv`
+      * last venv is just name of env you want to setup...
+    * `source venv/bin/activate`
+      * puts you in virtual env
+      * `deactivate` takes you out
 
 1. if going to make installable, should start with that first
-  * add a `setup.py` (see bottom for example)
-  * add a `MANIFEST.in` have static files that need to be copied over
+    * add a `setup.py` (see bottom for example)
+    * add a `MANIFEST.in` have static files that need to be copied over
 1. install project while in venv in dir using `pip install -e .s`
-  * will look for `setup.py`
+    * will look for `setup.py`
 
 1. python has a built sqlite
 1. pytest and coverage are the common ways of covering both subjects their names imply...
-  * (pytest)[https://pytest.readthedocs.io/en/latest/]
-  * (coverage)[https://coverage.readthedocs.io/en/coverage-4.5.1/]
+    * [pytest](https://pytest.readthedocs.io/en/latest/)
+    * [coverage](https://coverage.readthedocs.io/en/coverage-4.5.1/)
 1. I really need to spend more time getting to know how testing works...
 1. production should be served through something else such as [waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/)
 
