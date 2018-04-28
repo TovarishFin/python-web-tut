@@ -17,6 +17,11 @@
   * will look for `setup.py`
 
 1. python has a built sqlite
+1. pytest and coverage are the common ways of covering both subjects their names imply...
+  * (pytest)[https://pytest.readthedocs.io/en/latest/]
+  * (coverage)[https://coverage.readthedocs.io/en/coverage-4.5.1/]
+1. I really need to spend more time getting to know how testing works...
+1. production should be served through something else such as [waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/)
 
 ## some examples
 
