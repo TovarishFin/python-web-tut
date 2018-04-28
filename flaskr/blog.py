@@ -95,6 +95,6 @@ def delete(id):
     # used to check that correct user is deleting i guess?
     get_post(id)
     db = get_db()
-    db.exectute('DELETE FROM post WHERE id = ?', (id,))
+    db.execute('DELETE FROM post WHERE id = ?', (id,))
     db.commit()
     return redirect(url_for('blog.index'))
