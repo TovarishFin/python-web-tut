@@ -1,11 +1,12 @@
 # personal notes
 
-## important take aways
+## important general python take aways
 
-* setup virtual environment to keep deps from being global
-  1. `python -m venv venv`
+1. setup virtual environment to keep deps from being global
+  * env easiest to just put in project directory... can include in git...
+  * `python -m venv venv`
     * last venv is just name of env you want to setup...
-  1. `source venv/bin/activate`
+  * `source venv/bin/activate`
     * puts you in virtual env
     * `deactivate` takes you out
 
@@ -14,6 +15,8 @@
   * add a `MANIFEST.in` have static files that need to be copied over
 1. install project while in venv in dir using `pip install -e .s`
   * will look for `setup.py`
+
+1. python has a built sqlite
 
 ## some examples
 
